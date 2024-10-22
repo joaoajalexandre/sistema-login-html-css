@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./back.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main{
+    position: absolute;
+    background-color: #f0f0f0;
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 0px 10px #202020;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.main div{
+    width: 100%;
+
+}
+
+.main h1{
+    text-align: center;
+    margin: 25px 0px;
+}
+.main div input.input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 8px;
+}
+.main p{
+    text-align: center;
+    margin: 25px 0px;
+}
+.main button{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    background-color: orange;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.main button:hover{
+    background-color: darkorange;
+}
+.main a{
+    color: orange;
+    text-decoration: none;
+}
+
+.main .lembrar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
